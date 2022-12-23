@@ -4,13 +4,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: 'Native Alien', sans-serif;
 }
 // Hero Section
 .hero {
   background-color: $light;
 
-  &__container {
+  &_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -28,7 +28,7 @@
       height: 100%;
     }
 
-    &--left {
+    &-left {
       width: 100%;
       line-height: 1.2;
 
@@ -41,7 +41,7 @@
       }
     }
 
-    &--left h1 {
+    &-left h1 {
       font-size: 4rem;
       color: $lime;
 
@@ -50,7 +50,7 @@
       }
     }
 
-    &--left h2 {
+    &-left h2 {
       font-size: 4rem;
       color: $dark;
 
@@ -59,9 +59,9 @@
       }
     }
 
-    &--left p {
+    &-left p {
       font-size: 2rem;
-      color: $dark;
+      color: $blue;
       margin-top: 1rem;
       font-weight: 700;
 
@@ -70,7 +70,7 @@
       }
     }
 
-    &--btn {
+    &-btn {
       font-size: 1rem;
       background-color: $lime;
       padding: 14px 32px;
@@ -84,14 +84,14 @@
       outline: none;
     }
 
-    &--btn a {
+    &-btn a {
       position: relative;
       z-index: 2;
       color: $light;
       text-decoration: none;
     }
 
-    &--btn:after {
+    &-btn:after {
       position: absolute;
       content: '';
       top: 0;
@@ -103,15 +103,15 @@
       border-radius: 4px;
     }
 
-    &--btn:hover:after {
+    &-btn:hover:after {
       width: 100%;
     }
 
-    &--right {
+    &-right {
       text-align: center;
     }
 
-    &--img {
+    &-img {
       height: 100%;
       width: 100%;
     }
