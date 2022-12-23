@@ -1,2 +1,2 @@
 # Sass-web
-A simple web page with sass and scss. 
+A simple Alien web page with sass and scss. 
