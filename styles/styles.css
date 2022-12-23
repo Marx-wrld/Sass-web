@@ -1,10 +1,10 @@
-.navbar__menu--links, .navbar__menu, .navbar__logo {
+.navbar_menu-links, .navbar_menu, .navbar_logo {
   display: flex;
   align-items: center;
 }
 
 .navbar {
-  background: #f7f7f7;
+  background: #ffffff;
   height: 80px;
   display: flex;
   justify-content: space-between;
@@ -12,18 +12,18 @@
   z-index: 10;
   position: relative;
 }
-.navbar__logo {
+.navbar_logo {
   color: #222121;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
   margin-left: 24px;
 }
-.navbar__bars {
+.navbar_bars {
   opacity: 0;
 }
 @media screen and (max-width: 768px) {
-  .navbar__bars {
+  .navbar_bars {
     color: #222121;
     opacity: 1;
     position: absolute;
@@ -32,37 +32,37 @@
     font-size: 2rem;
   }
 }
-.navbar__menu {
+.navbar_menu {
   list-style: none;
   text-align: center;
   margin-right: 24px;
 }
 @media screen and (max-width: 768px) {
-  .navbar__menu {
+  .navbar_menu {
     display: none;
   }
 }
-.navbar__menu--links {
+.navbar_menu-links {
   color: #222121;
   justify-content: center;
   text-decoration: none;
   padding: 0 1rem;
 }
-.navbar__menu--links:hover {
+.navbar_menu-links:hover {
   color: #00cc66;
   transition: all 0.3s ease;
 }
-.navbar__menu #button {
+.navbar_menu #button {
   padding: 12px 24px;
   border: none;
   outline: none;
   border-radius: 4px;
   background: #00cc66;
   margin-left: 16px;
-  color: #f7f7f7;
+  color: #ffffff;
 }
-.navbar__menu #button:hover {
-  background: #fb4b4e;
+.navbar_menu #button:hover {
+  background: rgb(231, 28, 130);
   transition: all 0.3s ease;
 }
 
@@ -70,13 +70,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Native Alien", sans-serif;
 }
 
 .hero {
-  background-color: #f7f7f7;
+  background-color: #ffffff;
 }
-.hero__container {
+.hero_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -90,91 +90,91 @@
   padding-left: 24px;
 }
 @media screen and (max-width: 768px) {
-  .hero__container {
+  .hero_container {
     grid-template-columns: 1fr;
     height: 100%;
   }
 }
-.hero__container--left {
+.hero_container-left {
   width: 100%;
   line-height: 1.2;
 }
 @media screen and (max-width: 768px) {
-  .hero__container--left {
+  .hero_container-left {
     padding: 5rem 0;
   }
 }
 @media screen and (max-width: 280px) {
-  .hero__container--left {
+  .hero_container-left {
     line-height: 1.5;
   }
 }
-.hero__container--left h1 {
+.hero_container-left h1 {
   font-size: 4rem;
   color: #00cc66;
 }
 @media screen and (max-width: 280px) {
-  .hero__container--left h1 {
+  .hero_container-left h1 {
     font-size: 1.5rem;
   }
 }
-.hero__container--left h2 {
+.hero_container-left h2 {
   font-size: 4rem;
   color: #222121;
 }
 @media screen and (max-width: 280px) {
-  .hero__container--left h2 {
+  .hero_container-left h2 {
     font-size: 2rem;
   }
 }
-.hero__container--left p {
+.hero_container-left p {
   font-size: 2rem;
-  color: #222121;
+  color: #2541b2;
   margin-top: 1rem;
   font-weight: 700;
 }
 @media screen and (max-width: 280px) {
-  .hero__container--left p {
+  .hero_container-left p {
     font-size: 1.5rem;
   }
 }
-.hero__container--btn {
+.hero_container-btn {
   font-size: 1rem;
   background-color: #00cc66;
   padding: 14px 32px;
   border: none;
   border-radius: 4px;
-  color: #f7f7f7;
+  color: #ffffff;
   margin-top: 2rem;
   cursor: pointer;
   position: relative;
   transition: all 0.3s;
   outline: none;
 }
-.hero__container--btn a {
+.hero_container-btn a {
   position: relative;
   z-index: 2;
-  color: #f7f7f7;
+  color: #ffffff;
   text-decoration: none;
 }
-.hero__container--btn:after {
+.hero_container-btn:after {
   position: absolute;
   content: "";
   top: 0;
   left: 0;
   width: 0;
   height: 100%;
-  background: #fb4b4e;
+  background: rgb(231, 28, 130);
   transition: all 0.3s;
   border-radius: 4px;
 }
-.hero__container--btn:hover:after {
+.hero_container-btn:hover:after {
   width: 100%;
 }
-.hero__container--right {
+.hero_container-right {
   text-align: center;
 }
-.hero__container--img {
+.hero_container-img {
   height: 100%;
   width: 100%;
 }/*# sourceMappingURL=styles.css.map */

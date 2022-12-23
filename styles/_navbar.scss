@@ -15,7 +15,7 @@
   z-index: 10;
   position: relative;
 
-  &__logo {
+  &_logo {
     color: $dark;
     cursor: pointer;
     text-decoration: none;
@@ -24,7 +24,7 @@
     @extend %align-center;
   }
 
-  &__bars {
+  &_bars {
     opacity: 0;
 
     @include tablet {
@@ -37,7 +37,7 @@
     }
   }
 
-  &__menu {
+  &_menu {
     @extend %align-center;
     list-style: none;
     text-align: center;
@@ -47,7 +47,7 @@
       display: none;
     }
 
-    &--links {
+    &-links {
       color: $dark;
       @extend %align-center;
       justify-content: center;
